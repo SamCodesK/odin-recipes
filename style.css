@@ -1,18 +1,25 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    text-align: center;
 }
 
 body{
 background-color: #3A445D;
+color: white;
 font-family: sans-serif;
+text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    width: 50%;
 }
 
 h1 {
     color: #FCDEBE;
+    margin-top: 15px;
 }
+
 
 .recipes{
     border: 4px solid #FF7477;
@@ -22,7 +29,7 @@ h1 {
 }
 
 a{
-    text-decoration:none;
+    text-decoration: none;
     color: #FCDEBE;
     cursor: pointer;
     font-size: 18px;
@@ -35,6 +42,4 @@ a:hover {
     text-decoration: underline;
 }
 
-img{
-    margin-bottom: 30px;
-}
+
